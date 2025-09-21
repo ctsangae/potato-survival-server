@@ -82,7 +82,7 @@ h1 {
   justify-content: center;
   align-items: center;
 
-  font-size: 5rem;
+  font-size: min(5rem, 6.5vw);
   font-weight: 1000;
   /* overflow: hidden;
   text-overflow: ellipsis; 
@@ -91,7 +91,7 @@ h1 {
 
 #come-join-us {
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: min(2rem, 4.5vw);
 }
 
 #Homeimg2 {
@@ -451,3 +451,4 @@ h1 {
     gap: 2vw; /* Optional: Add gap between grid items */
   }
 }
+
