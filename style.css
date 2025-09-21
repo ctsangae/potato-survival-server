@@ -188,6 +188,19 @@ h1 {
   height: auto; /* Maintain aspect ratio */
 }
 
+@media (max-width: 800px) {
+  #feelftj-p {
+    margin: 2% auto 0 auto;
+    width: 85%;
+  }
+
+  #Homeimg3 {
+    width: 85%;
+    margin: 2% auto 0 auto;
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
 .parallax1 {
   background: url("img/Background4.png") fixed;
   background-size: cover;
@@ -451,4 +464,3 @@ h1 {
     gap: 2vw; /* Optional: Add gap between grid items */
   }
 }
-
