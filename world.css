@@ -1,0 +1,377 @@
+#Season3-section {
+  background: url("img/s3b1.png") fixed;
+  border-top: solid rgba(247, 247, 247) 0.1px;
+  background-size: cover;
+  background-position: center top;
+}
+
+#s3div2text-container {
+  display: block;
+  margin: 0 auto;
+  text-align: start;
+  letter-spacing: -0.7px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 130%;
+  font-weight: 800;
+  line-height: 1.2;
+  padding: 3% 3% 3% 3%;
+  max-width: 800px;
+  color: white;
+  text-shadow: black 0px 0px 1px, black 0 0 25px, black 0 0 1px;
+}
+
+#Season3-section h2 {
+  color: white;
+  font-size: min(230%, 60vw);
+  font-weight: 1100;
+  padding-top: 40px;
+  margin-top: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: start;
+  text-shadow: black 0px 0px 1px, black 0 0 25px, black 0 0 1px;
+}
+
+#s3div2 {
+  padding: 0 5% 0 5%;
+}
+
+#S3Screenshots-Container {
+  padding: 1% 10% 5% 10%;
+  display: grid;
+  /* grid-template-columns: repeat(auto-fill, 400px); */
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2vw; /* Optional: Add gap between grid items */
+}
+
+#S3Screenshots1 {
+  border: solid rgb(60, 41, 6) 0.5vw;
+  object-fit: cover;
+  width: 80%;
+  display: block;
+  justify-self: right;
+}
+
+#S3Screenshots2 {
+  border: solid #b2cd9c 0.5vw;
+  object-fit: cover;
+  width: 80%;
+  display: block;
+  justify-self: left;
+}
+
+#S3Screenshots3 {
+  border: solid #b2cd9c 0.5vw;
+  object-fit: cover;
+  width: 80%;
+  display: block;
+  justify-self: right;
+}
+
+#S3Screenshots4 {
+  border: solid rgb(60, 41, 6) 0.5vw;
+  object-fit: cover;
+  width: 80%;
+  display: block;
+  justify-self: left;
+}
+
+#video-section {
+  margin: 0 auto 0 auto;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  text-shadow: black 0px 0px 2px, black 0 0 25px, black 0 0 2px;
+  color: white;
+}
+#video-section p {
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  text-shadow: black 0px 0px 2px, black 0 0 25px, black 0 0 2px;
+  color: white;
+}
+#video-section a {
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  text-shadow: black 0px 0px 2px, black 0 0 25px, black 0 0 2px;
+  color: white;
+}
+
+#video-section a p:hover {
+  color: rgb(0, 0, 0); /* Change text color on hover */
+}
+
+.video-container {
+  width: 50vw;
+  text-align: center; /* Center the video in the container */
+  background-color: rgba(247, 247, 247, 0.5);
+  border-radius: 1vw;
+  border: solid rgba(247, 247, 247, 0.5);
+  border-radius: 1vw; /* Optional: round the corners */
+  padding: 0;
+  margin: 0 auto;
+}
+
+.video-container p {
+  padding: 0;
+  margin: min(0.5vw, 10px);
+  font-size: 130%;
+  font-weight: 800;
+  line-height: 1;
+  color: white;
+  text-shadow: black 0px 0px 1px, black 0 0 25px, black 0 0 1px;
+}
+
+video {
+  width: 50vw; /* Set width for normal screens */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 1vw; /* Optional: round the corners */
+}
+
+#gallery1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: rgba(247, 247, 247, 0.5);
+  border-radius: 1vw;
+  border: solid rgba(247, 247, 247, 0.5);
+  border-width: 0.3vw;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 70vw;
+  width: 100%;
+  margin: 0 auto;
+}
+#description1 {
+  padding: 20px;
+  flex: 1;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  text-shadow: black 0px 0px 2px, black 0 0 25px, black 0 0 2px;
+  color: white;
+  font-weight: 700;
+}
+#description1 h3 {
+  font-weight: 1100;
+}
+#images1 {
+  position: relative;
+  flex: 2;
+}
+#images1 img {
+  max-width: 100%;
+  display: none; /* Initially hide all images */
+  opacity: 0; /* Set initial opacity to 0 for fade effect */
+  transition: opacity 0.5s ease; /* Transition for opacity */
+}
+#images1 img.active {
+  display: block;
+  opacity: 1;
+}
+
+#gallery2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: rgba(247, 247, 247, 0.5);
+  border-radius: 1vw;
+  border: solid rgba(247, 247, 247, 0.5);
+  border-width: 0.3vw;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 70vw;
+  width: 100%;
+  margin: 0 auto;
+}
+#description2 {
+  padding: 20px;
+  flex: 1;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  text-shadow: black 0px 0px 2px, black 0 0 25px, black 0 0 2px;
+  color: white;
+  font-weight: 700;
+}
+#description2 h3 {
+  font-weight: 1100;
+}
+#images2 {
+  position: relative;
+  flex: 2;
+}
+#images2 img {
+  max-width: 100%;
+  display: none; /* Initially hide all images */
+  opacity: 0; /* Set initial opacity to 0 for fade effect */
+  transition: opacity 0.5s ease; /* Transition for opacity */
+}
+#images2 img.active {
+  display: block;
+  opacity: 1;
+}
+#prenextbutton-container {
+  margin: 10px auto;
+}
+.buttonprevnext {
+  cursor: pointer;
+  padding: 10px 15px;
+  margin: 10px;
+  background-color: rgba(247, 247, 247, 0.5);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  text-shadow: black 0px 0px 1px, black 0 0 25px, black 0 0 1px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.buttonprevnext:hover {
+  background-color: rgba(101, 101, 101, 0.8);
+}
+
+.nav-buttons {
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust position */
+  display: flex;
+  justify-content: space-between;
+  width: 100%; /* Full width to spread buttons */
+}
+
+.button2 {
+  cursor: pointer;
+  padding: 10px;
+  margin: 0 10px; /* Remove margin */
+  background: none; /* No background */
+  border: none; /* No border */
+  color: #ffffff; /* Text color */
+  font-size: min(170%, 3vw);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.button2:hover {
+  color: #000000; /* Change color on hover */
+}
+
+.carousel {
+  display: flex;
+  overflow: hidden;
+  width: 80%;
+  height: 20vw; /* Adjust height as needed */
+  margin: 4% auto 1% auto;
+}
+.carousel-container {
+  display: flex;
+  animation: scroll 100s linear infinite;
+}
+.carousel img {
+  height: 100%;
+  width: auto;
+  margin-right: 10px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+#s3div3 {
+  margin: 0 auto 1 0;
+  border: solid rgb(0, 0, 0, 0);
+  font-size: min(2.3vw, 100%);
+  text-align: center;
+  letter-spacing: -0.7px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+}
+
+@media (max-width: 800px) {
+  #S3Screenshots-Container {
+    padding: 0 10% 5% 10%;
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill, 400px); */
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 2vw; /* Optional: Add gap between grid items */
+  }
+
+  #gallery1 {
+    flex-direction: column; /* Stack elements vertically */
+    display: flex;
+    align-items: center;
+    background-color: rgba(247, 247, 247, 0.5);
+    border-radius: max(2vw, 5px);
+    border: solid rgba(247, 247, 247, 0.5);
+    border-width: max(1vw, 5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 90vw;
+  }
+
+  #gallery2 {
+    flex-direction: column; /* Stack elements vertically */
+    display: flex;
+    align-items: center;
+    background-color: rgba(247, 247, 247, 0.5);
+    border-radius: max(2vw, 5px);
+    border: solid rgba(247, 247, 247, 0.5);
+    border-width: max(1vw, 5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 90vw;
+  }
+
+  #description {
+    margin: 0;
+  }
+  #description h3 {
+    margin: 0;
+  }
+
+  .video-container {
+    width: 90vw;
+    text-align: center; /* Center the video in the container */
+    background-color: rgba(247, 247, 247, 0.5);
+    border-radius: 1vw;
+    border: solid rgba(247, 247, 247, 0.5);
+    border-radius: 1vw; /* Optional: round the corners */
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  video {
+    width: 90vw; /* Set width for normal screens */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 1vw; /* Optional: round the corners */
+  }
+
+  .carousel {
+    display: flex;
+    overflow: hidden;
+    width: 80%;
+    height: 40vw; /* Adjust height as needed */
+    margin: 4% auto 1% auto;
+  }
+  .carousel-container {
+    display: flex;
+    animation: scroll 100s linear infinite;
+  }
+  .carousel img {
+    height: 100%;
+    width: auto;
+    margin-right: 10px;
+  }
+}
+
+#Season5-section {
+  background: url("img/s5b1.png") fixed;
+  border-top: solid rgba(247, 247, 247) 0.1px;
+  background-size: cover;
+  background-position: center;
+  min-height: 60vw;
+}
