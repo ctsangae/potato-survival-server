@@ -263,7 +263,7 @@ h1 {
   #coremembers-container {
     grid-template-columns: repeat(
       auto-fill,
-      minmax(400px, 1fr)
+      minmax(80vw, 1fr)
     ); /* Change to smaller minimum width */
   }
 }
@@ -464,3 +464,4 @@ h1 {
     gap: 2vw; /* Optional: Add gap between grid items */
   }
 }
+
